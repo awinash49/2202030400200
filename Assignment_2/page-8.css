@@ -1,0 +1,95 @@
+
+        .cart-container {
+          background-color: #fff;
+          display: flex;
+          max-width: 285px;
+          padding: 19px 0 0;
+          flex-direction: column;
+          font: 500 14px/1.4 'Inter', sans-serif;
+          white-space: nowrap;
+        }
+        
+        .cart-header {
+          display: flex;
+          margin-left: 12px;
+          width: 100%;
+          max-width: 100%;
+          flex-direction: column;
+          color: #000;
+        }
+        
+        .divider {
+          background-color: #000;
+          height: 1px;
+        }
+        
+        .cart-title {
+          font-style: italic;
+          align-self: end;
+          margin-top: 6px;
+        }
+        
+        .content-area {
+          display: flex;
+          margin-top: 33px;
+          width: 100%;
+          padding-left: 11px;
+          flex-direction: column;
+        }
+        
+        .shop-info {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        
+        .shop-name,
+        .shop-category,
+        .empty-basket,
+        .savings-info,
+        .shop-now-button,
+        .quick-grabs {
+          font-style: italic;
+        }
+        
+        .shop-name,
+        .quick-grabs {
+          color: #000;
+        }
+        
+        .shop-category {
+          color: #161392;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+        
+        .item-image,
+        .quick-grabs-image {
+          aspect-ratio: auto;
+          object-fit: cover;
+          object-position: center;
+          width: 100%;
+          align-self: center;
+          margin-top: 7px;
+        }
+        
+        .empty-basket,
+        .savings-info {
+          align-self: center;
+          color: #000;
+        }
+        
+        .shop-now-button {
+          background-color: #342782;
+          color: #fff;
+          padding: 4px 44px;
+          margin-top: 16px;
+          align-self: center;
+          justify-content: center;
+        }
+        
+        .quick-grabs {
+          align-self: start;
+          margin: 15px 0 0 35px;
+          color: #000;
+        }

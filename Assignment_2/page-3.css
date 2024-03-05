@@ -1,0 +1,170 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 544px;
+    padding: 47px 11px 0;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 11px;
+  }
+
+  @media (max-width: 991px) {
+    .content {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .offers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 991px) {
+    .offers {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .offer-item {
+    background-color: #1d1a99;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 7px 13px;
+  }
+
+  @media (max-width: 991px) {
+    .offer-item {
+      white-space: initial;
+    }
+  }
+
+  .product-image {
+    width: 31px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .offer-title {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+  }
+
+  .grocery-section {
+    background-color: #7b82c0;
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    gap: 1px;
+  }
+
+  @media (max-width: 991px) {
+    .grocery-section {
+      white-space: initial;
+    }
+  }
+
+  .grocery-image {
+    width: 38px;
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .grocery-title {
+    font-family: Inter, sans-serif;
+    align-self: start;
+    margin-top: 9px;
+    flex-grow: 1;
+  }
+
+  .extra-offers {
+    display: flex;
+    margin-top: 23px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .extra-offers {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  .brand-mall {
+    color: #000;
+    align-self: end;
+    margin-top: 22px;
+    flex-grow: 1;
+    font: 800 24px Inter, sans-serif;
+  }
+
+  .mall-offers {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 2px;
+  }
+
+  .mall-offer-image {
+    width: 52px;
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    align-self: start;
+  }
+
+  .multiple-offers {
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+  }
+
+  .offer-item-image {
+    width: 29px;
+    aspect-ratio: 0.75;
+    object-fit: contain;
+    object-position: center;
+    align-self: start;
+    margin-top: 6px;
+  }
+
+  .big-offer-image {
+    width: 58px;
+    aspect-ratio: 1.28;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .banner-image {
+    width: 100%;
+    aspect-ratio: 5.56;
+    object-fit: contain;
+    object-position: center;
+    margin-top: 571px;
+  }
+
+  @media (max-width: 991px) {
+    .banner-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

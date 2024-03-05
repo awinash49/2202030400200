@@ -1,0 +1,69 @@
+.login-container {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    color: #000;
+    font-weight: 800;
+    margin: 0 auto;
+    padding: 25px 80px 50px 22px;
+  }
+  
+  .logo-img, .footer-logo-img {
+    aspect-ratio: 1.18;
+    object-fit: cover;
+    object-position: center;
+    width: 52px;
+    align-self: center;
+  }
+
+  .login-title, .input-label, .password-container .password-label, .forget-password, .keep-signed-in, .conditions-link, .help-link {
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+  }
+
+  .input-field, .password-input-field {
+    background-color: #d9d9d9;
+    margin-top: 9px;
+    height: 32px;
+  }
+
+  .login-button, .create-account {
+    background-color: #a41616;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 16px 60px;
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .keep-signed-in-wrapper, .footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .checked-box {
+    background-color: #d9d9d9;
+    width: 19px;
+    height: 15px;
+  }
+
+  .new-to-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    padding: 16px 0;
+  }
+
+  .divider {
+    background-color: #000;
+    height: 1px;
+    width: 70px;
+  }

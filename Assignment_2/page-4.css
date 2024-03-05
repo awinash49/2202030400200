@@ -1,0 +1,127 @@
+
+        .notification-container {
+          background-color: #fff;
+          display: flex;
+          max-width: 384px;
+          padding: 21px 0 0;
+          flex-direction: column;
+          font-size: 20px;
+          color: #000;
+          font-weight: 500;
+        }
+      
+        .notification-header {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          padding: 0 12px;
+        }
+      
+        .notification-title {
+          font-family: 'Inter', sans-serif;
+          font-style: italic;
+        }
+      
+        .filter-container {
+          display: flex;
+          margin-top: 35px;
+          width: 100%;
+          justify-content: space-between;
+          gap: 20px;
+        }
+      
+        .filter-all {
+          font-family: 'Inter', sans-serif;
+          font-style: italic;
+          background-color: #d9d9d9;
+          padding: 9px 32px 9px 10px;
+        }
+      
+        .order-info-section {
+          background-color: #d9d9d9;
+          display: flex;
+          align-items: start;
+          gap: 0px;
+          margin: auto 0;
+          padding: 1px 0;
+        }
+      
+        .product-image {
+          width: 25px;
+          aspect-ratio: 0.83;
+          object-fit: auto;
+          object-position: center;
+        }
+      
+        .order-info {
+          font-family: 'Inter', sans-serif;
+          font-style: italic;
+          margin-top: 13px;
+          flex-grow: 1;
+        }
+      
+        .vesque-info {
+          aspect-ratio: 3.13;
+          object-fit: auto;
+          object-position: center;
+          width: 107px;
+          max-width: 100%;
+        }
+      
+        .product-container {
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          position: relative;
+          aspect-ratio: 1.61;
+          margin-top: 25px;
+          align-items: end;
+          justify-content: space-between;
+          gap: 20px;
+          font-size: 15px;
+          padding: 50px 11px 6px;
+        }
+      
+        .product-background {
+          position: absolute;
+          inset: 0;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      
+        .product-name,
+        .product-details {
+          position: relative;
+          font-family: 'Inter', sans-serif;
+          font-style: italic;
+          background-color: #d9d9d9;
+          padding: 5px 30px 5px 9px;
+          margin-top: 153px;
+          flex-grow: 1;
+          justify-content: center;
+        }
+      
+        .offer {
+          font-family: 'Inter', sans-serif;
+          font-style: italic;
+          margin-top: 11px;
+          width: 100%;
+        }
+      
+        .additional-info {
+          display: flex;
+          margin-top: 5px;
+          padding-right: 20px;
+          justify-content: space-between;
+          gap: 7px;
+          font-size: 12px;
+        }
+      
+        .extra-image {
+          aspect-ratio: 5.88;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+        }

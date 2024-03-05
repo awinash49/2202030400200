@@ -1,0 +1,117 @@
+        .cart-container {
+          background-color: #fff;
+          display: flex;
+          max-width: 312px;
+          padding: 21px 0;
+          flex-direction: column;
+          font: 500 12px/1.5 Inter, sans-serif;
+        }
+        .cart-header {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          white-space: nowrap;
+          padding: 0 11px;
+        }
+        .cart-title {
+          color: #000;
+          font-style: italic;
+          align-self: start;
+          margin-left: 13px;
+        }
+        .shop-categories {
+          display: flex;
+          margin-top: 14px;
+          justify-content: space-between;
+          gap: 20px;
+        }
+        .category-flipkart,
+        .category-grocery {
+          font-style: italic;
+          flex-grow: 1;
+          color: #fff;
+          padding: 9px 20px;
+          justify-content: center;
+          align-items: start;
+        }
+        .category-flipkart {
+          background-color: #222156;
+        }
+        .category-grocery {
+          background-color: #d9d9d9;
+          color: #000;
+          padding-right: 48px;
+        }
+        .cart-empty-img {
+          aspect-ratio: 2.08;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          margin-top: 17px;
+        }
+        .cart-empty-text,
+        .shop-now-btn,
+        .suggested-title,
+        .activity-based {
+          display: flex;
+          flex-direction: column;
+          color: #000;
+          padding: 0 30px;
+        }
+        .cart-empty-text {
+          align-self: center;
+          font-style: italic;
+        }
+        .shop-now-btn {
+          background-color: #202872;
+          align-self: end;
+          margin-top: 22px;
+          width: 180px;
+          color: #fff;
+          white-space: nowrap;
+          padding: 11px 60px 4px;
+        }
+        .suggested-title {
+          margin-top: 42px;
+          font-style: italic;
+        }
+        .activity-based {
+          margin-top: 13px;
+          font-size: 10px;
+        }
+        .suggested-items-section {
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          position: relative;
+          aspect-ratio: 2.79;
+          margin-top: 12px;
+          align-items: end;
+          justify-content: space-between;
+          gap: 20px;
+          color: #000;
+          white-space: nowrap;
+          padding: 50px 20px 0;
+        }
+        .suggested-item-img {
+          position: absolute;
+          inset: 0;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        .item-title,
+        .item-description {
+          position: relative;
+          font-style: italic;
+          background-color: #d9d9d9;
+          margin-top: 40px;
+          flex-grow: 1;
+          justify-content: center;
+          padding: 7px 11px;
+        }
+        .item-description {
+          padding-right: 26px;
+        }
+    

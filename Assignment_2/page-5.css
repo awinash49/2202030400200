@@ -1,0 +1,92 @@
+
+.user-greeting,
+.plus-member,
+.wishlist-info,
+.coupon-info,
+.help-center-info,
+.credit-options-title,
+.personal-loan-info,
+.flipkart-later-info,
+.recent-stores-title {
+  font-family: Inter, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  max-width: 356px;
+  padding: 28px 0;
+  flex-direction: column;
+  color: #000;
+}
+
+.user-info,
+.image-options,
+.credit-options,
+.recent-stores {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 0 18px;
+}
+
+.media-icon {
+  object-fit: cover;
+  width: 100%;
+}
+
+.media-icon-small {
+  object-fit: cover;
+  width: 36px;
+}
+
+.media-icon-medium {
+  object-fit: cover;
+  width: 35px;
+}
+
+.media-icon-large {
+  object-fit: cover;
+  width: 38px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.options-section {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 3px 2px;
+  background-color: #d9d9d9;
+}
+
+.option-title {
+  align-self: start;
+  margin-top: 14px;
+}
+
+.credit-section,
+.times-prime-section {
+  display: flex;
+  margin-top: 7px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-width: 0;
+}
